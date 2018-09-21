@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400');
+#titre
+{
+    padding-top: 30px;
+    padding-left: 15px;
+
+    font-size: 2em;
+    transition: 1s;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 200; 
+}
+
+#banniere
+{
+	background-color: white ;
+    background-image: url("pictures/dessin150px.png");
+    background-position: right;
+    opacity: 1;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    margin-top: -30px;
+    margin-left: -10px;
+    margin-right: -10px;
+    z-index: 1;
+}
+
+
+
+#menu
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;  
+
+}
+
+.bouton
+{
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+    font-weight: bold;
+    border: solid white 1px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#navigation
+{
+
+   width: 100%;
+   background-color: white;
+   border-bottom: solid grey 1px;
+   box-shadow: 2px 2px 2px grey;
+
+
+   height: 40px;
+   justify-content: space-between;
+   margin-top: -16px;
+   margin-left: -10px;
+   margin-right: -10px;
+   
+ 
+}
+
+#couleur1:focus
+{
+    background-color: #4592cb;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+#couleur2:focus
+{
+    background-color: aquamarine;
+    padding: 6px;
+    border-radius: 10px;
+}
+#couleur3:focus
+{
+    background-color: #c0321c;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+
+
+#menuFlottant
+{
+	position: fixed;
+	width: 100%;
+    height: 150px;
+}
+
+
+#corpstexte
+{
+	padding-top: 220px;
+    margin-bottom: 100px;
+    background-color: #ffeaa7;
+}
+
+
+#bulle
+{
+	border: solid black 2px;
+	border-radius: 90px;
+	 right: 0;
+  top: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: -2.5em;
+  background-image:url("pictures/70px.jpg");	
+  float: left;
+
+}
+
+#bio
+{
+    
+	padding-top: 20px;
+}
+/*contact*/
+
+label
+{
+  margin: 40px;
+}
+
+textarea
+{
+  width: 60%;
+  height: 150px;
+  overflow: auto; 
+}
+
+
+
+
+
+#about
+{
+
+	margin-bottom: 20px;
+	padding-left: 90px;
+}
+
+#contact
+{
+    padding-top: 30px;
+	color: black;
+    font-size:20px;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow:5px 5px 5px #bb5f11;
+    width:100%;
+    margin:auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width: 575.98px) {
+	#contactoff{
+		display: none;
+	}
+	
+
+	#titre
+{
+    padding-top: 5px;
+    padding-left: 15px;
+    color: black;
+    font-size: 2em; 
+    transition: 1s; 
+    font-family: 'Raleway', sans-serif;  
+    font-weight: 400;
+
+}
+
+.bouton
+{
+padding-bottom: 1px;
+text-decoration: none;
+font-size: 0.7em;
+color: black;
+font-weight: bold;
+border: solid white 1px;
+text-align: left;
+font-family: 'Raleway', sans-serif;      
+}
+
+#navigation
+{
+   width: 100%;
+   background-color: white;
+   border-bottom: solid grey 1px;
+   box-shadow: 2px 2px 2px grey;
+
+
+   height: 40px;
+   justify-content: space-around;
+   margin-top: -16px;
+   margin-left: -10px;
+   margin-right: -10px;
+   
+ 
+}
+
+#menuport
+{
+	display: none;
+}
+
+}
+@media (min-width: 575.98px) {
+	#bulleFlottante{
+		display: none;
+	}
+	
+	
+}
+
+html{
+    font-family: 'Raleway', sans-serif !important;  
+   
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
